@@ -25,7 +25,7 @@ var drawTable= function(employees)
 });   
     
 }
-var employeePromise = d3.csv("staffxml.json")
+var employeePromise = d3.csv("staffxml.csv")
 
 var successFCN = function(employees)
 {
